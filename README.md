@@ -1,8 +1,10 @@
-## 𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂
- ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+𝙻𝚄𝙽𝙰-𝙱𝙾𝚃𝚂!;𝙲𝚁𝙴𝙰𝚃𝙴𝙳+𝙱𝚈+𝙱𝙰𝙻𝙰𝙼𝚄𝚁𝚄𝙶𝙰𝙽!)
+## Mᴇʟᴏ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ
+ ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=😃 Hᴇʏ, I Aᴍ Mᴇʟᴏᴅʏ!;Cʀᴇᴀᴛᴇᴅ Bʏ 會؄𝚂𝚄𝚁𝙰𝙹؄會!)
 <p align="center">
-  <img src="https://telegra.ph/file/da8f09330e61584ae037c.jpg" alt="𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂Logo">
+  <img src="https://telegra.ph/file/da8f09330e61584ae037c.jpg" alt="Mᴇʟᴏ Aᴜᴛᴏ Fɪʟᴛᴇʀ BᴏᴛLogo">
 </p>
+
+━━━━━━━━━━━━━━━━━━━━━━
 
 ## Features
 
@@ -28,6 +30,8 @@
 - [x] File Store
 - [X] Image Editor
 
+━━━━━━━━━━━━━━━━━━━━━━
+
 ## Variables
 
 ### Required Variables
@@ -41,6 +45,8 @@
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `SUPPORT_CHAT` : @RBLunainline
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
+
+━━━━━━━━━━━━━━━━━━━━━━
 
 ## Deploy
 You can deploy this bot anywhere.
