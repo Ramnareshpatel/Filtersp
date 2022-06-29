@@ -52,6 +52,6 @@ ujson
 Heroku3
 Wikipedia
 pytz
-geopy>=2.1.1
+geopy>=2.1.0
 shazamio
 
