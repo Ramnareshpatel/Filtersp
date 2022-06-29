@@ -44,9 +44,9 @@
 * `SUPPORT_CHAT` : @RBLunainline
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 
-━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━
 
-## ㅤㅤㅤ      Dᴇᴘʟᴏʏ Oɴ Hᴇʀᴏᴋᴜ​ 🚀
+##Dᴇᴘʟᴏʏ Oɴ Hᴇʀᴏᴋᴜ​ 🚀
 ㅤㅤㅤTʜᴇ Eᴀsɪᴇsᴛ Wᴀʏ Tᴏ Dᴇᴘʟᴏʏ Mᴇʟᴏ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TG-SURAJ/Melody-Filter-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  ━━━━━━━━━━━━━━━━━━━━━
