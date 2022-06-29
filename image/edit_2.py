@@ -307,6 +307,7 @@ async def pencil(client, message):
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
+            )
             await msg.edit("</i><i><b>Uᴘʟᴏᴀᴅɪɴɢ Iᴍᴀɢᴇ....</b></i>")
             img = cv2.imread(a)
             img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
