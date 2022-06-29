@@ -1,6 +1,4 @@
 ## Mᴇʟᴏ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ
- ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=😃 Hᴇʏ,+I+Aᴍ+Mᴇʟᴏᴅʏ!;Cʀᴇᴀᴛᴇᴅ+Bʏ+會؄𝚂𝚄𝚁𝙰𝙹؄會!)
-<p align="center">
   <img src="https://telegra.ph/file/da8f09330e61584ae037c.jpg" alt="Mᴇʟᴏ+Aᴜᴛᴏ+Fɪʟᴛᴇʀ+BᴏᴛLogo">
 </p>
 
