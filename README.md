@@ -6,27 +6,27 @@
 
 ## Features
 
-- [x] Auto Filter
-- [x] Manual Filter
+- [x] Aᴜᴛᴏ Fɪʟᴛᴇʀ
+- [x] Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ
 - [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
-- [x] Youtube Video , Song , Thumbnail Download.
-- [x] Image Edit.
-- [x] Google Translator.
-- [x] Telegraph
-- [x] Entertainment
-- [x] Sticker ID Generator
-- [x] COVID Information
-- [x] File Store
-- [X] Image Editor
+- [x] Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs
+- [x] Bʀᴏᴀᴅᴄᴀsᴛ
+- [x] Iɴᴅᴇx
+- [x] IMDB sᴇᴀʀᴄʜ
+- [x] Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ
+- [x] Rᴀɴᴅᴏᴍ ᴘɪᴄs
+- [x] ɪᴅs ᴀɴᴅ Usᴇʀ ɪɴғᴏ 
+- [x] Sᴛᴀᴛs, Usᴇʀs, Cʜᴀᴛs, Bᴀɴ, Uɴʙᴀɴ, Lᴇᴀᴠᴇ, Dɪsᴀʙʟᴇ, Cʜᴀɴɴᴇʟ
+- [x] Sᴘᴇʟʟɪɴɢ Cʜᴇᴄᴋ Fᴇᴀᴛᴜʀᴇ
+- [x] Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ , Sᴏɴɢ , Tʜᴜᴍʙɴᴀɪʟ Dᴏᴡɴʟᴏᴀᴅ.
+- [x] Iᴍᴀɢᴇ Eᴅɪᴛ.
+- [x] Gᴏᴏɢʟᴇ Tʀᴀɴsʟᴀᴛᴏʀ.
+- [x] Tᴇʟᴇɢʀᴀᴘʜ
+- [x] Eɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ
+- [x] Sᴛɪᴄᴋᴇʀ ID Gᴇɴᴇʀᴀᴛᴏʀ
+- [x] COVID Iɴғᴏʀᴍᴀᴛɪᴏɴ
+- [x] Fɪʟᴇ Sᴛᴏʀᴇ
+- [X] Iᴍᴀɢᴇ Eᴅɪᴛᴏʀ
 
 ━━━━━━━━━━━━━━━━━━━━━
 
