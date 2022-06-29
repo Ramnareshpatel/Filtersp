@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/da8f09330e61584ae037c.jpg" alt="Mᴇʟᴏ+Aᴜᴛᴏ+Fɪʟᴛᴇʀ+BᴏᴛLogo">
 </p>
 
-━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━
 
 ## Features
 
@@ -28,7 +28,7 @@
 - [x] File Store
 - [X] Image Editor
 
-━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━
 
 ## Variables
 
@@ -46,17 +46,10 @@
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
-## Deploy
-You can deploy this bot anywhere.
-
-
-<summary>Deploy To Heroku</summary>
-<br>
-<p>
-<a href="https://heroku.com/deploy?template=https://github.com/TG-SURAJ/Melody-Filter-Bot">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
+## ㅤㅤㅤᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ​ 🚀
+ㅤㅤㅤᴛʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ꜰᴀʟʟᴇɴ ʀᴏʙᴏᴛ​
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AnonymousR1025/FallenRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+ ━━━━━━━━━━━━━━━━━━━━━━
 
 
 
