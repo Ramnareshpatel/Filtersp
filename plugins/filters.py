@@ -262,7 +262,7 @@ async def delallconfirm(client, message):
     st = await client.get_chat_member(grp_id, userid)
     if (st.status == "creator") or (str(userid) in ADMINS):
         await message.reply_text(
-            f"This will delete all filters from '{title}'.\nDo you want to continue??",
+            f"This Will Delete All Filters From '{title}'.\nDo You Want To Continue??",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(text="YES",callback_data="delallconfirm")],
                 [InlineKeyboardButton(text="CANCEL",callback_data="delallcancel")]
