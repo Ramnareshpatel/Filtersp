@@ -258,7 +258,7 @@ def list_to_str(k):
 def last_online(from_user):
     time = ""
     if from_user.is_bot:
-        time += "🤖 Bot :("
+        time += "👾 Bot :("
     elif from_user.status == 'recently':
         time += "Recently"
     elif from_user.status == 'within_week':
