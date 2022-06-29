@@ -43,7 +43,7 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        logging.info("𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙻𝚄𝙽𝙰......")
+        logging.info("Rᴇsᴛᴀʀᴛɪɴɢ Mᴇʟᴏᴅʏ......")
 
 
 app = Bot()
