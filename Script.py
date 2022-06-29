@@ -8,7 +8,7 @@ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ <a href=https://t.me/KingOf_univers>會؄𝚂𝚄�
 
 • Iᴛ's Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ....🤓
 • Dᴏɴ'ᴛ Sᴘᴀᴍ Mᴇ...🤒
-• Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅs...😍.
+• Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅs....😃
 
 Jᴏɪɴ: @Movies4youbackup ⚔️</b></i>"""
     ABOUT_TXT = """<i><b>❍ Mʏ Nᴀᴍᴇ: {}
