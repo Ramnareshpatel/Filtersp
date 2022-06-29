@@ -1,7 +1,7 @@
 {
-    "name": "ᎡᏴ [𝙻𝚄𝙽𝙰]💖",
+    "name": "Mᴇʟᴏᴅʏ 💖",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
-    "logo": "https://telegra.ph/file/be1900eb55a37c40a9212.jpg",
+    "logo": "https://telegra.ph/file/da8f09330e61584ae037c.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Ramnareshpatel/mainrepo",
-    "repository": "https://github.com/Ramnareshpatel/mainrepo",
+    "website": "https://github.com/TG-SURAJ/Melody-Filter-Bot",
+    "repository": "https://github.com/TG-SURAJ/Melody-Filter-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
