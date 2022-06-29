@@ -1,7 +1,7 @@
 ## 𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂
  ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+𝙻𝚄𝙽𝙰-𝙱𝙾𝚃𝚂!;𝙲𝚁𝙴𝙰𝚃𝙴𝙳+𝙱𝚈+𝙱𝙰𝙻𝙰𝙼𝚄𝚁𝚄𝙶𝙰𝙽!)
 <p align="center">
-  <img src="https://telegra.ph/file/be1900eb55a37c40a9212.jpg" alt="𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂Logo">
+  <img src="https://telegra.ph/file/da8f09330e61584ae037c.jpg" alt="𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂Logo">
 </p>
 
 ## Features
@@ -49,7 +49,7 @@ You can deploy this bot anywhere.
 <summary>Deploy To Heroku</summary>
 <br>
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/Ramnareshpatel/mainrepo">
+<a href="https://heroku.com/deploy?template=https://github.com/TG-SURAJ/Melody-Filter-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -90,5 +90,5 @@ You can deploy this bot anywhere.
 * /broadcast - to broadcast a message to all Ajax users
 ```
 
-<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝙱𝙰𝙻𝙰𝙼𝚄𝚁𝚄𝙶𝙰𝙽](https://t.me/balaSMURUGAN)</b>                                                                                                                                                                                     
-<b>✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝙻𝚄𝙽𝙰 𝙸𝙽𝙻𝙸𝙽𝙴](https://t.me/RBLunainline)</b>
+<b>✮ Dᴇᴠᴇʟᴏᴘᴇʀs ›› [會؄𝚂𝚄𝚁𝙰𝙹؄會](https://t.me/KingOf_univers)</b>                                                                                                                                                                                     
+<b>✮ Sᴜᴘᴘᴏʀᴛ ›› [Mᴏᴠɪᴇs 4 ʏᴏᴜ](https://t.me/Movies_4you)</b>
