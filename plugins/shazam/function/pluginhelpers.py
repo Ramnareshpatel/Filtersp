@@ -17,7 +17,7 @@ from pyrogram.types import Chat, Message, User
 async def fetch_audio(client, message):
     time.time()
     if not message.reply_to_message:
-        await message.reply("Reply To A Video / Audio.")
+        await message.reply("Reply To A Video/Audio.")
         return
     warner_stark = message.reply_to_message
     if warner_stark.audio is None and warner_stark.video is None:
