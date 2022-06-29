@@ -4,7 +4,7 @@
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-## Features
+## Fᴇᴀᴛᴜʀᴇs
 
 - [x] Aᴜᴛᴏ Fɪʟᴛᴇʀ
 - [x] Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ
@@ -30,7 +30,7 @@
 
 ━━━━━━━━━━━━━━━━━━━━━
 
-## Variables
+## Vᴀʀɪᴀʙʟᴇs
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -41,7 +41,7 @@
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this 
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-* `SUPPORT_CHAT` : @RBLunainline
+* `SUPPORT_CHAT` : @Movies_4you
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 
 ━━━━━━━━━━━━━━━━━━━━━
@@ -58,7 +58,7 @@
 
 
 
-## Commands
+## Cᴏᴍᴍᴀɴᴅ
 ```
 * /logs - to get the rescent errors
 * /stats - to get status of files in db.
@@ -88,5 +88,5 @@
 ```
 ━━━━━━━━━━━━━━━━━━━━━
 
-<b>✮ Dᴇᴠᴇʟᴏᴘᴇʀs ›› [會؄𝚂𝚄𝚁𝙰𝙹؄會](https://t.me/KingOf_univers)</b>                                                                                                                                                                                     
+<b>✮ Dᴇᴠᴇʟᴏᴘᴇʀs ›› [𝙎𝙪𝙧𝙖𝙟](https://t.me/KingOf_univers)</b>                                                                                                                                                                                     
 <b>✮ Sᴜᴘᴘᴏʀᴛ ›› [Mᴏᴠɪᴇs 4 ʏᴏᴜ](https://t.me/Movies_4you)</b>
