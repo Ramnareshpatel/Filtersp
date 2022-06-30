@@ -100,7 +100,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "RBLunainline",
+            "value": "Movies_4you",
             "required": false
         },
         "IMDB": {
