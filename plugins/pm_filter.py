@@ -767,32 +767,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await removebg_sticker(client, query.message)
     elif query.data == "pages":
         await query.answer()
-    elif query.data == "nihu":
+    elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('✨ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ✨', callback_data='start')
-    ]]
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🛡️ Uᴘᴅᴀᴛᴇs', url='https://t.me/Movies4youbackup'),
+            InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Movies_4you')
+            ],[      
+            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='commands'),
+            InlineKeyboardButton('📌 Aʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('Cʟᴏsᴇ✗', callback_data="close_data")
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
-            parse_mode='html',
-        )
-    elif query.data == "start":
-        buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-   ],[
-        InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),      
-        InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='commands')
-   ],[
-        InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
-    ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.START_TXT.format(query.from_user.mention, temp.B_NAME, temp.U_NAME),
-            reply_markup=reply_markup,
             parse_mode='html'
-        ) 
-
+        )
     elif query.data == "photo":
         buttons = [[
             InlineKeyboardButton(text="ʙʀɪɢʜᴛ", callback_data="bright"),
