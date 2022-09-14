@@ -20,36 +20,44 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("start"))
 async def start(client, message):
-    
-
     if message.chat.type in ['group', 'supergroup']:
-        buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ]]
-        await message.reply_photo(photo=random.choice(PICS), caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME), reply_markup = InlineKeyboardMarkup(buttons), parse_mode='html')
-        await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
-        
+        buttons = [
+            [
+                InlineKeyboardButton('Pʀɪᴠᴀᴛᴇ ʙᴏᴛ', url=f"http://t.me/Melody_AutoFilterBot")
+            ]
+            ]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply(script.PRIVATEBOT_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
+        await asyncio.sleep(2) # 😢 https://github.com/Aadhi000/Ajax-Extra-Features/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
-            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.mention, total, "Unknown"))       
-            await db.add_chat(message.chat.title, message.chat.title)
+            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
+            await db.add_chat(message.chat.id, message.chat.title)
         return 
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        
-        START_TXT = f"""
-<b>{greet} {message.from_user.mention}  ʙᴜᴅᴅʏ
-ᴍʏ ɴᴀᴍᴇ ɪꜱ  {temp.B_NAME}  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>
-"""
         buttons = [[
-            InlineKeyboardButton('✨ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ✨', callback_data='start')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🛡️ Uᴘᴅᴀᴛᴇs', url='https://t.me/Movies4youBackup'),
+            InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Movies_4you')
+            ],[      
+            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='commands'),
+            InlineKeyboardButton('📌 Aʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data="close_data")
         ]]         
-        reply_markup = InlineKeyboardMarkup(buttons)        
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_chat_action("typing")
+        m=await message.reply_sticker("CAACAgIAAxkBAAIKdmMeEwjCyKwyiaKSk-iy9IsoVoXBAAIzEQACS7OpSSz9K4FDLRHbHgQ") 
+        await asyncio.sleep(4)
+        await m.delete()
+        await message.reply_chat_action("typing")
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=START_TXT,
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -58,39 +66,41 @@ async def start(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
-            logger.error("Make sure Bot is admin in Forcesub channel")
+            logger.error("Mᴀᴋᴇ Sᴜʀᴇ Bᴏᴛ Is Aᴅᴍɪɴ Iɴ Fᴏʀᴄᴇsᴜʙ Cʜᴀɴɴᴇʟ")
             return
         btn = [
             [
                 InlineKeyboardButton(
-                    "💢 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 💢", url=invite_link.invite_link
+                    "⚔️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("🔃 ᴛʀʏ ᴀɢᴀɪɴ 🔃", callback_data=f"checksub#{message.command[1]}")])
-        await client.send_photo(
-            photo="https://telegra.ph/file/f5d411fba25ecfa5197fe.jpg",
+            btn.append([InlineKeyboardButton("🔁 Tʀʏ Aɢᴀɪɴ!", callback_data=f"checksub#{message.command[1]}")])
+        await client.send_message(
             chat_id=message.from_user.id,
-            caption="☆ ʜᴇʟʟᴏ ᴍʏ ғʀɪᴇɴᴅ ☆\n\n☆ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇsᴜʟᴛ ☆",
+            text="<i>**Hᴇʏ...🙋‍♂ Pʟᴇᴀsᴇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ! ❤️‍🔥**</i>",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        
-        START_TXT = f"""
-<b>{greet} {message.from_user.mention}  ʙᴜᴅᴅʏ
-ᴍʏ ɴᴀᴍᴇ ɪꜱ {temp.B_NAME} ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>
-"""
         buttons = [[
-            InlineKeyboardButton('✨ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ✨', callback_data='start')
-        ]]         
-        reply_markup = InlineKeyboardMarkup(buttons)        
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🛡️ Uᴘᴅᴀᴛᴇs', url='https://t.me/Movies4youBackup'),
+            InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Movies_4you')
+            ],[      
+            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='commands'),
+            InlineKeyboardButton('📌 Aʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data="close_data")
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=START_TXT,
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
