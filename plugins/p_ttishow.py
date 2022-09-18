@@ -60,7 +60,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                photo="https://telegra.ph/file/e08467ead01c2b2bba293.jpg",
+                photo="https://telegra.ph/file/037d4467107b51d721a4d.jpg",
                 caption=f"<i><b>🙋‍♂️ Hᴇʏ! {u.mention}, Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title}💓\n\n<b>🥺 Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ</b></i>",
                 reply_markup=InlineKeyboardMarkup(buttons))
 
