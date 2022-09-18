@@ -59,7 +59,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_video(
+                temp.MELCOW['welcome'] = await message.reply_photo(
                 photo="https://telegra.ph/file/e08467ead01c2b2bba293.jpg",
                 caption=f"<i><b>🙋‍♂️ Hᴇʏ! {u.mention}, Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title}💓\n\n<b>🥺 Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ</b></i>",
                 reply_markup=InlineKeyboardMarkup(buttons))
