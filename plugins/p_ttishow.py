@@ -45,11 +45,12 @@ async def save_group(bot, message):
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
-        await message.reply_text(
-            text=f"<i><b>Tʜᴀɴᴋʏᴏᴜ Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Iɴ {message.chat.title} ❣️\n\nIғ Yᴏᴜ Hᴀᴠᴇ Aɴʏ Qᴜᴇsᴛɪᴏɴs & Dᴏᴜʙᴛs Aʙᴏᴜᴛ Usɪɴɢ Mᴇ Cᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ</b></i>",
+        await message.reply_video(
+            video="https://telegra.ph/file/f264ce1113efb81c8a682.mp4",
+            caption=f"<i><b>Tʜᴀɴᴋʏᴏᴜ Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Iɴ {message.chat.title} ❣️\n\nIғ Yᴏᴜ Hᴀᴠᴇ Aɴʏ Qᴜᴇsᴛɪᴏɴs & Dᴏᴜʙᴛs Aʙᴏᴜᴛ Usɪɴɢ Mᴇ Cᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ</b></i>",
             reply_markup=reply_markup)
     else:
-         for u in message.new_chat_members:
+        for u in message.new_chat_members:
                 buttons = [[
                 InlineKeyboardButton('🎀 Uᴘᴅᴀᴛᴇs 🎀', url="https://t.me/Movies4youBackup")
             ]]
@@ -58,9 +59,9 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<i><b>🙋‍♂️ Hᴇʏ! {u.mention}, Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title}💓\n\n<b>🥺 Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ</b></i>",
-                disable_web_page_preview = True,
+                temp.MELCOW['welcome'] = await message.reply_video(
+                photo="https://telegra.ph/file/e08467ead01c2b2bba293.jpg",
+                caption=f"<i><b>🙋‍♂️ Hᴇʏ! {u.mention}, Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title}💓\n\n<b>🥺 Pʟᴇᴀsᴇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ</b></i>",
                 reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
